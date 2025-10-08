@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+:root {
+  --font-raleway: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--font-raleway), sans-serif;
+}
+
+
+.heroimg {
+  background-image:url('../../public/wedding_couple.jpg');
+  height: 750px;
+  width: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-top: -120px;
+}
+
+.inviteimg {
+  background-image: url('../../public//flowers.jpg');
+  height: 600px;
+  width: 100%;
+   background-size:cover;
+  background-repeat: no-repeat;
+}
